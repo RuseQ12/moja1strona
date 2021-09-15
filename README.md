@@ -1,2 +1,2 @@
-# moja1strona
-Moja pierwsza strona na zajecia
+# Zadania
+Strona Na Zajecia
