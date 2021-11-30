@@ -5,8 +5,58 @@
 			<meta charset="utf-8">
 			<title> Strona Formularza </title>
 		</head>
-		<body>
-		Tutaj bedzie formularz
-		<a HREF="index.html">wróć</a>
+		<body bgcolor="pink">
+		<h1> Dobór Komputera Pod Ciebie i Twoje Potrzeby. </h1>
+		<form>
+		<p align="right">
+		Język 
+		<select name=jezyk>
+			<option value=pl>Polski
+			<option value=ang>Angielski
+			<option value=niem>Niemiecki
+		</select>
+		</p>
+		<p>
+		<h4>Podaj budzet: <input type="text"> zł </h4> <br>
+		</p>
+		<p>
+		<h4>Zintegrowana Karta Graficzna: </h4>
+		<input type="radio" name="karta" value="tak"> TAK   <br>
+		<input type="radio" name="karta" value="nie"> NIE	<br>
+		</p>
+		<h4>Do Jakich Zastosowań Potrzebujesz Komputera?</h4>
+		
+		<p>
+		<input type="checkbox" name="zastosowanie" value="granie"> Do Grania <br>
+		<input type="checkbox" name="zastosowanie" value="dane"> Do Przetrzymywania Danych <br>
+		<input type="checkbox" name="zastosowanie" value="grafiki"> Do Tworzenia Grafik <br>
+		<input type="checkbox" name="zastosowanie" value="zdjecia"> Do Obróbki Zdjec <br>
+		<input type="checkbox" name="zastosowanie" value="montaz"> Do montażu filmów <br>
+		<input type="checkbox" name="zastosowanie" value="inne"> Inne <font size="1"> (NAPISZ W UWAGI) </font> <br>
+		</p>
+		<p>
+		<h4>Do jakich gier (Wybierz Tylko Jeżeli Będziesz Grać w Gry) </h4>
+		<input type="checkbox" name="gry" value="fort">	Fortnite
+		<input type="checkbox" name="gry" value="forza5"> Forza Horizon 5	
+		<input type="checkbox" name="gry" value="majkraft">	Minecraft
+		<input type="checkbox" name="gry" value="newworld">	New World
+		<input type="checkbox" name="gry" value="rust">	Rust <br>
+		<input type="checkbox" name="gry" value="gta5">	GTA V
+		<input type="checkbox" name="gry" value="lol"> League of Legends
+		<input type="checkbox" name="gry" value="valorant">	 Valorant
+		<input type="checkbox" name="gry" value="csgo">	CS:GO
+		<input type="checkbox" name="gry" value="inne">	INNE <font size="1"> (NAPISZ W UWAGI) </font>
+		</p>
+		<p>
+		<h4>UWAGI | DODATKOWE INFORMACJE</h4>
+		<TEXTAREA NAME="uwagi" ROWS="10" COLS="60">Napisz tutaj swoje uwagi... </TEXTAREA>
+		</p>
+		<br>
+		<p>
+		<INPUT TYPE="reset" VALUE="RESET">
+		<INPUT TYPE="submit" VALUE="WYŚLIJ">
+		</p>
+		</form>
+		<a HREF="index.html">Wróć</a>
 		</body>
 	</html>
